@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The New Industrials — Brand Guide Poster</title>
 <style>
 :root {
@@ -21,9 +22,10 @@
 @font-face { font-family: "IBM Plex Mono"; font-weight: 500; src: url("fonts/plexmono-500.woff2") format("woff2"); font-display: swap; }
 @font-face { font-family: "IBM Plex Mono"; font-weight: 600; src: url("fonts/plexmono-600.woff2") format("woff2"); font-display: swap; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html, body { width: 2304px; height: 3456px; overflow: hidden; background: var(--paper); }
+html, body { width: auto; height: auto; overflow-x: hidden; overflow-y: auto; background: var(--paper); }
+#stage { width: 100%; height: calc(100vw * 3456 / 2304); overflow: hidden; }
 #poster {
-  width: 2304px; height: 3456px; overflow: hidden; position: relative;
+  width: 2304px; height: 3456px; overflow: hidden; position: relative; transform-origin: top left; transform: scale(calc(100vw / 2304));
   display: flex; flex-direction: column; padding: 0 92px;
   background: var(--paper); color: var(--ink);
 }
@@ -60,6 +62,7 @@ html, body { width: 2304px; height: 3456px; overflow: hidden; background: var(--
 </style>
 </head>
 <body>
+<div id="stage">
 <div id="poster">
 
   <div class="band" style="height:80px;display:flex;align-items:center;justify-content:space-between;">
@@ -388,6 +391,7 @@ html, body { width: 2304px; height: 3456px; overflow: hidden; background: var(--
     <div class="mono" style="font-size:14px;">john@therawmaterials.com  ·  Raw Materials  ·  © 2026</div>
   </div>
 
+</div>
 </div>
 </body>
 </html>
