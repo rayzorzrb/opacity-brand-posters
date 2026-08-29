@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The New Industrials — Brand Guide Poster</title>
+<style>
+:root {
+  --paper: #FAFAFA;
+  --ink: #111111;
+  --muted: #555555;
+  --ghost: #CBCBCB;
+  --panel: #F5F5F5;
+  --orange: #FF8126;
+  --lime: #C5F23D;
+  --blue: #4DB8FF;
+}
+@font-face {
+  font-family: "Newsreader";
+  font-weight: 400;
+  src: url("fonts/newsreader-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Newsreader";
+  font-weight: 600;
+  src: url("fonts/newsreader-600.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "BIZ UDMincho";
+  font-weight: 400;
+  src: url("fonts/mincho-latin-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  src: url("fonts/plexmono-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  src: url("fonts/plexmono-500.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  src: url("fonts/plexmono-600.woff2") format("woff2");
+  font-display: swap;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  width: 2304px; height: 3456px; overflow: hidden; background: var(--paper);
+}
+#poster {
+  width: 2304px; height: 3456px; overflow: hidden;
+  display: flex; flex-direction: column; padding: 0 92px;
+  background: var(--paper); color: var(--ink);
+}
+.band { flex: none; width: 100%; }
+.hair { flex: none; height: 1px; background: var(--ink); width: 100%; }
+.mono {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase;
+}
+.serif {
+  font-family: "Newsreader", "Albra Book", "Times New Roman", serif;
+  font-weight: 400;
+}
+.serif-b {
+  font-family: "Newsreader", "Albra Book", "Times New Roman", serif;
+  font-weight: 600;
+}
+.quote {
+  font-family: "BIZ UDMincho", "Noto Serif JP", serif;
+  font-weight: 400;
+}
+.key { color: var(--muted); }
+.val { color: var(--ink); }
+.ghost { color: var(--ghost); }
+</style>
+</head>
+<body>
+<div id="poster">
+
+  <div class="band" style="height:96px;display:flex;align-items:center;justify-content:space-between;">
+    <div class="mono" style="font-size:14px;">Raw Materials  ·  The New Industrials</div>
+    <div class="mono" style="font-size:14px;">Design.md  v1.0  ·  2026</div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:620px;display:grid;grid-template-columns:3fr 2fr;">
+    <div style="border-right:1px solid var(--ink);padding:36px 20px 32px 0;display:flex;flex-direction:column;justify-content:space-between;">
+      <div>
+        <div class="serif-b" style="font-size:92px;line-height:0.92;letter-spacing:-0.035em;">The New Industrials</div>
+        <div class="serif" style="font-size:28px;line-height:1.28;letter-spacing:-0.02em;margin-top:22px;max-width:920px;">
+          Cream editorial paper + hairline industrial grid + iridescent low-poly hardware, typeset like a manifesto.
+        </div>
+      </div>
+      <div class="serif" style="font-size:20px;line-height:1.4;max-width:920px;">
+        A Raw Materials issue, not a startup. Fusion-reactor big, IRL. Design is how those companies take control.
+      </div>
+    </div>
+    <div style="padding:36px 0 32px 20px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div>
+        <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+          <span class="mono key">Spine</span>
+          <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">cream + grid + hardware</span>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+          <span class="mono key">Promise</span>
+          <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">Design is the preface</span>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+          <span class="mono key">Enemy</span>
+          <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">progress by accident</span>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+          <span class="mono key">Date</span>
+          <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">published July 2025</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:flex-end;gap:20px;">
+        <div style="width:132px;height:132px;flex:none;position:relative;background:var(--orange);">
+          <div style="position:absolute;inset:18%;background:var(--lime);clip-path:polygon(18% 22%, 78% 18%, 88% 52%, 62% 86%, 22% 78%, 10% 42%);"></div>
+        </div>
+        <div class="mono" style="font-size:12px;line-height:1.45;letter-spacing:0.04em;max-width:240px;">
+          Faceted orange gem.<br>
+          Lime inner cut.<br>
+          Not a letter. Not a squircle.<br>
+          Header mark is Raw Materials.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:300px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px 60px;">
+    <div class="mono ghost" style="font-size:14px;letter-spacing:0.12em;margin-bottom:16px;">03</div>
+    <div class="quote" style="font-size:72px;line-height:1.1;letter-spacing:-0.03em;">The opposite of by Design<br>is by accident.</div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:880px;display:grid;grid-template-columns:1fr 1fr;">
+    <div style="border-right:1px solid var(--ink);padding:28px 18px 28px 0;display:flex;flex-direction:column;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;margin-bottom:12px;">04  Color</div>
+      <div style="display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--ink);">
+        <div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;"><div style="height:64px;background:#FF8126;"></div><div style="padding:7px 8px 8px;"><div class="mono" style="font-size:11px;">industrial_orange</div><div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#FF8126</div><div class="mono key" style="font-size:10px;margin-top:3px;">preload / soon</div></div></div>
+        <div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;"><div style="height:64px;background:#C5F23D;"></div><div style="padding:7px 8px 8px;"><div class="mono" style="font-size:11px;">acid_lime</div><div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#C5F23D</div><div class="mono key" style="font-size:10px;margin-top:3px;">mark cut / launched</div></div></div>
+        <div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;"><div style="height:64px;background:#4DB8FF;"></div><div style="padding:7px 8px 8px;"><div class="mono" style="font-size:11px;">signal_blue</div><div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#4DB8FF</div><div class="mono key" style="font-size:10px;margin-top:3px;">rainbow third</div></div></div>
+        <div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;"><div style="height:64px;background:#111111;"></div><div style="padding:7px 8px 8px;"><div class="mono" style="font-size:11px;color:#FAFAFA;">ink</div><div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;color:#FAFAFA;">#111111</div><div class="mono" style="font-size:10px;margin-top:3px;color:#CBCBCB;">type / hairlines</div></div></div>
+        <div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;"><div style="height:64px;background:#555555;"></div><div style="padding:7px 8px 8px;"><div class="mono" style="font-size:11px;color:#FAFAFA;">muted</div><div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;color:#FAFAFA;">#555555</div><div class="mono" style="font-size:10px;margin-top:3px;color:#CBCBCB;">labels only</div></div></div>
+        <div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;"><div style="height:64px;background:#FAFAFA;border-bottom:1px solid #111;"></div><div style="padding:7px 8px 8px;"><div class="mono" style="font-size:11px;">paper</div><div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#FAFAFA</div><div class="mono key" style="font-size:10px;margin-top:3px;">page field</div></div></div>
+        <div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;"><div style="height:64px;background:#F5F5F5;"></div><div style="padding:7px 8px 8px;"><div class="mono" style="font-size:11px;">panel</div><div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#F5F5F5</div><div class="mono key" style="font-size:10px;margin-top:3px;">banners / cards</div></div></div>
+        <div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;"><div style="height:64px;background:#CBCBCB;"></div><div style="padding:7px 8px 8px;"><div class="mono" style="font-size:11px;">ghost</div><div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#CBCBCB</div><div class="mono key" style="font-size:10px;margin-top:3px;">3D fill / numbers</div></div></div>
+        <div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;"><div style="height:64px;background:#000000;"></div><div style="padding:7px 8px 8px;"><div class="mono" style="font-size:11px;color:#FAFAFA;">carbon</div><div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;color:#FAFAFA;">#000000</div><div class="mono" style="font-size:10px;margin-top:3px;color:#CBCBCB;">rare full black</div></div></div>
+        <div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;"><div style="height:64px;background:linear-gradient(90deg,#FF8126,#C5F23D,#4DB8FF);"></div><div style="padding:7px 8px 8px;"><div class="mono" style="font-size:11px;">rainbow</div><div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">gradient</div><div class="mono key" style="font-size:10px;margin-top:3px;">CTA / 3D only</div></div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 28px;margin-top:18px;">
+        <p class="serif" style="font-size:20px;line-height:1.35;">White/cream is the system. Orange is a load and status signal. Then it gets out of the way.</p>
+        <p class="serif" style="font-size:20px;line-height:1.35;">Lime is launched, orange is soon. Do not swap them. Never set small type in orange on cream.</p>
+      </div>
+    </div>
+    <div style="padding:28px 0 28px 18px;display:flex;flex-direction:column;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;margin-bottom:4px;">05  Type</div>
+      <div style="padding:14px 0;border-bottom:1px solid var(--ink);">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;">
+          <span class="mono" style="font-size:12px;">01  Albra Book  display / body</span>
+          <span class="mono key" style="font-size:11px;">300  ·  32 / 56px</span>
+        </div>
+        <div class="serif" style="font-size:46px;line-height:1.14;letter-spacing:-0.02em;">BIG big. Fusion reactor big.</div>
+        <div class="mono key" style="font-size:11px;margin-top:8px;">Substitute on this sheet: Newsreader. Albra is the voice.</div>
+      </div>
+      <div style="padding:14px 0;border-bottom:1px solid var(--ink);">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;">
+          <span class="mono" style="font-size:12px;">02  BIZ UD Mincho  quote</span>
+          <span class="mono key" style="font-size:11px;">400  ·  80px  ·  −0.03em</span>
+        </div>
+        <div class="quote" style="font-size:42px;line-height:1.1;letter-spacing:-0.03em;">Design is how you take control.</div>
+        <div class="mono key" style="font-size:11px;margin-top:8px;">Brand face, quote blocks only. Not UI.</div>
+      </div>
+      <div style="padding:14px 0;border-bottom:1px solid var(--ink);">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;">
+          <span class="mono" style="font-size:12px;">03  Supply Mono  chrome</span>
+          <span class="mono key" style="font-size:11px;">300  ·  uppercase</span>
+        </div>
+        <div class="mono" style="font-size:28px;letter-spacing:0.04em;">Written by  /  Raw Materials</div>
+        <div class="mono key" style="font-size:11px;margin-top:8px;">Substitute on this sheet: IBM Plex Mono. Header, footer, tags, outlines.</div>
+      </div>
+      <p class="serif" style="font-size:20px;line-height:1.35;margin-top:14px;">Albra talks. Mincho hinges. Supply labels. Adding Inter or Geist collapses it into every other studio site.</p>
+    </div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:880px;display:grid;grid-template-columns:5fr 4fr;">
+    <div style="border-right:1px solid var(--ink);padding:28px 18px 28px 0;display:flex;flex-direction:column;gap:16px;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;">06  Grid</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+        <div>
+          <div style="display:grid;grid-template-columns:repeat(8,1fr);height:120px;border:1px solid var(--ink);border-right:0;">
+            <div style="border-right:1px solid var(--ink);"></div>
+            <div style="border-right:1px solid var(--ink);"></div>
+            <div style="border-right:1px solid var(--ink);background:var(--panel);"></div>
+            <div style="border-right:1px solid var(--ink);background:var(--panel);"></div>
+            <div style="border-right:1px solid var(--ink);background:var(--panel);"></div>
+            <div style="border-right:1px solid var(--ink);"></div>
+            <div style="border-right:1px solid var(--ink);"></div>
+            <div style="border-right:1px solid var(--ink);"></div>
+          </div>
+          <div class="mono key" style="font-size:11px;margin-top:8px;">8 columns  ·  gutter 0  ·  printing plate</div>
+        </div>
+        <div>
+          <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Wrapper</span><span class="mono val" style="text-transform:none;letter-spacing:0;">1440px / 144rem</span></div>
+          <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Columns</span><span class="mono val" style="text-transform:none;letter-spacing:0;">8</span></div>
+          <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Gutter</span><span class="mono val" style="text-transform:none;letter-spacing:0;">0</span></div>
+          <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Margin</span><span class="mono val" style="text-transform:none;letter-spacing:0;">24px / 2.4rem</span></div>
+          <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Header</span><span class="mono val" style="text-transform:none;letter-spacing:0;">54–74px</span></div>
+          <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Footer</span><span class="mono val" style="text-transform:none;letter-spacing:0;">min 226px</span></div>
+          <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Radius rest</span><span class="mono val" style="text-transform:none;letter-spacing:0;">0px</span></div>
+          <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Radius press</span><span class="mono val" style="text-transform:none;letter-spacing:0;">8px</span></div>
+          <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Hairline</span><span class="mono val" style="text-transform:none;letter-spacing:0;">1px #111</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="mono ghost" style="font-size:12px;letter-spacing:0.1em;margin-bottom:10px;">Components</div>
+        <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;margin:0 8px 8px 0;">Rest  ·  outline</span>
+        <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;margin:0 8px 8px 0;background:var(--ink);color:var(--paper);">Hover  ·  ink fill</span>
+        <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;margin:0 8px 8px 0;">Active  ·  8px</span>
+        <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;margin:0 8px 8px 0;background:#FF8126;">Soon</span>
+        <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;margin:0 8px 8px 0;background:#C5F23D;">Launched</span>
+      </div>
+    </div>
+    <div style="padding:28px 0 28px 18px;display:flex;flex-direction:column;gap:12px;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;">07  Imagery</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+        <div style="position:relative;height:168px;border:1px solid var(--ink);background:var(--panel);background-image:repeating-linear-gradient(135deg, rgba(17,17,17,.09) 0 1px, transparent 1px 12px);">
+          <div class="mono" style="position:absolute;left:10px;bottom:8px;font-size:11px;background:var(--paper);padding:2px 6px 1px;">A  Low-poly hardware</div>
+        </div>
+        <div style="position:relative;height:168px;border:1px solid var(--ink);background:var(--panel);background-image:repeating-linear-gradient(135deg, rgba(17,17,17,.09) 0 1px, transparent 1px 12px);">
+          <div class="mono" style="position:absolute;left:10px;bottom:8px;font-size:11px;background:var(--paper);padding:2px 6px 1px;">B  Case film  ·  Anduril</div>
+        </div>
+      </div>
+      <p class="serif" style="font-size:20px;line-height:1.32;">Family A — hexagonal plates, gradient pillars, cream void, almost no shadow. Family B — real vessels, tablets, dusk. Anduril cyan is Anduril’s, not this issue’s. Do not grade case films to orange.</p>
+      <div class="mono" style="font-size:12px;line-height:1.45;letter-spacing:0.02em;text-transform:none;">
+        <div class="key" style="text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Positive</div>
+        Editorial industrial-tech magazine on cream paper, hairline black 8-column grid, Albra Book essay, Supply Mono uppercase captions, BIZ UD Mincho oversized quote, iridescent low-poly hexagonal hardware in orange lime blue, no shadows, preloader orange #FF8126, faceted gem mark.
+        <div class="key" style="text-transform:uppercase;letter-spacing:0.08em;margin:10px 0 4px;">Negative</div>
+        Neon cyber, Unreal cinematic, glowing HUD, factory stock, rocket cliché, Inter font, rounded SaaS cards, dark mode, particle bloom, coin, isometric city, glassmorphism.
+      </div>
+    </div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:550px;display:grid;grid-template-columns:1fr 1fr 1fr;">
+    <div style="border-right:1px solid var(--ink);padding:24px 16px 24px 0;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;margin-bottom:8px;">08  Motion</div>
+      <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Preloader</span><span class="mono val" style="text-transform:none;letter-spacing:0;">500ms ease-out</span></div>
+      <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Video</span><span class="mono val" style="text-transform:none;letter-spacing:0;">0.8s  ·  scale 1.005</span></div>
+      <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Underline</span><span class="mono val" style="text-transform:none;letter-spacing:0;">0.4s  ·  left in</span></div>
+      <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Button hover</span><span class="mono val" style="text-transform:none;letter-spacing:0;">0.4s fill up</span></div>
+      <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">CTA rainbow</span><span class="mono val" style="text-transform:none;letter-spacing:0;">0.8s / 2.4s loop</span></div>
+      <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Parallax</span><span class="mono val" style="text-transform:none;letter-spacing:0;">10rem → −10rem</span></div>
+      <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">FX</span><span class="mono val" style="text-transform:none;letter-spacing:0;">demand  ·  no shadows</span></div>
+      <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;"><span class="mono key">Dismiss</span><span class="mono val" style="text-transform:none;letter-spacing:0;">0.3s ease-in close</span></div>
+      <p class="serif" style="font-size:20px;line-height:1.3;margin-top:12px;">Never ease-in on enter. The one ease-in is dismiss.</p>
+      <p class="serif" style="font-size:20px;line-height:1.3;margin-top:8px;">Never: bouncy springs, particle fields, spinning logos.</p>
+    </div>
+    <div style="border-right:1px solid var(--ink);padding:24px 16px;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;margin-bottom:10px;">09  Copy / Voice</div>
+      <div class="mono" style="font-size:12px;letter-spacing:0.08em;margin-bottom:6px;">Keep</div>
+      <p class="serif" style="font-size:18px;line-height:1.35;margin-bottom:10px;">“IRL.” “BIG big. Fusion reactor big.” “The opposite of by Design is by accident.” “An Unusual Design Company.” “They’re not waiting to get established to worry about Design.”</p>
+      <div class="mono" style="font-size:12px;letter-spacing:0.08em;margin-bottom:6px;">Verbs</div>
+      <p class="serif" style="font-size:18px;line-height:1.35;margin-bottom:10px;">Rebuild, reshape, craft, take control, make things differently.</p>
+      <div class="mono" style="font-size:12px;letter-spacing:0.08em;margin-bottom:6px;">Do not</div>
+      <p class="serif" style="font-size:18px;line-height:1.35;">“Revolutionize.” “Disrupting legacy.” “Hard tech thesis.” “The future of X.” Stay named: Auger, Anduril, Saronic, Seasats, Epirus.</p>
+    </div>
+    <div style="padding:24px 0 24px 16px;display:flex;flex-direction:column;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;margin-bottom:8px;">10  Anti-patterns</div>
+      <div class="serif" style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;">Dark defense-tech sites with cyan HUD chrome.</div>
+      <div class="serif" style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;">Replace 3D objects with factory or rocket stock.</div>
+      <div class="serif" style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;">Inter / Neue Haas / another neo-grotesque for the essay.</div>
+      <div class="serif" style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;">Rounding everything. Rest is 0. 8px is press only.</div>
+      <div class="serif" style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;">Orange as a page background after the preloader.</div>
+      <div class="serif" style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;">Card grids, testimonials, metric counters, process timelines.</div>
+      <div class="serif" style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;">Raw Materials and TNI on equal header weight.</div>
+      <div class="serif" style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;">Glassmorphism, fat shadows, SaaS pills, crypto glow.</div>
+      <div class="quote" style="font-size:22px;line-height:1.15;letter-spacing:-0.03em;margin-top:auto;padding-top:12px;">If not, cut ornament and put the quote back.</div>
+    </div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:104px;display:flex;align-items:center;justify-content:space-between;">
+    <div class="mono" style="font-size:14px;">thenewindustrials.com</div>
+    <div class="mono" style="font-size:14px;">john@therawmaterials.com  ·  Raw Materials  ·  © 2026</div>
+  </div>
+
+</div>
+</body>
+</html>
