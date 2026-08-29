@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Opacity — Brand Guide Poster</title>
+<style>
+:root {
+  --paper: #F6F6F5;
+  --ink: #000000;
+  --muted: #808080;
+  --ghost: #CBCBCB;
+  --panel: #EFEFEC;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/inter-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
+  src: url("fonts/inter-500.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: normal;
+  src: url("fonts/inter-600.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/plexmono-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-style: normal;
+  src: url("fonts/plexmono-500.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  font-style: normal;
+  src: url("fonts/plexmono-600.woff2") format("woff2");
+  font-display: swap;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  width: 2304px;
+  height: 3456px;
+  overflow: hidden;
+  background: var(--paper);
+}
+#poster {
+  width: 2304px;
+  height: 3456px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 92px;
+  background: var(--paper);
+  color: var(--ink);
+}
+.band { flex: none; width: 100%; }
+.hair { flex: none; height: 1px; background: var(--ink); width: 100%; }
+.mono {
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.sans {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 600;
+  font-variation-settings: "opsz" 32;
+}
+.sans-reg {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 400;
+}
+.key { color: var(--muted); }
+.val { color: var(--ink); }
+.ghost { color: var(--ghost); }
+
+</style>
+</head>
+<body>
+<div id="poster">
+
+  <div class="band" style="height:96px;display:flex;align-items:center;justify-content:space-between;">
+    <div class="mono" style="font-size:14px;">Zoah Inc.  ·  Opacity</div>
+    <div class="mono" style="font-size:14px;">Design.md  v1.0  ·  2026</div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:620px;display:grid;grid-template-columns:3fr 2fr;">
+    <div style="border-right:1px solid var(--ink);padding:36px 20px 32px 0;display:flex;flex-direction:column;justify-content:space-between;">
+      <div>
+        <div class="sans" style="font-size:110px;line-height:0.92;letter-spacing:-0.035em;">Opacity</div>
+        <div class="sans-reg" style="font-size:28px;line-height:1.28;letter-spacing:-0.02em;margin-top:22px;max-width:920px;">
+          Cream paper + a punched-square aperture + Inter at optical-size 32, with color used only for people and git.
+        </div>
+      </div>
+      <div class="sans-reg" style="font-size:20px;line-height:1.4;max-width:920px;">
+        A pinned scroll manifesto for a design-to-code canvas. Not an IDE. Not Figma with a plugin. The logo is a hole you look through.
+      </div>
+    </div>
+    <div style="padding:36px 0 32px 20px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div>
+        <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">spine</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">cream + aperture + Inter</span>
+    </div>
+        <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">promise</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">canvas is the source of truth</span>
+    </div>
+        <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">enemy</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">the 30-year split</span>
+    </div>
+        <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">date</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">live  ·  Aug 2026</span>
+    </div>
+      </div>
+      
+    <div style="display:flex;align-items:flex-end;gap:20px;">
+      <div style="width:132px;height:132px;background:var(--ink);position:relative;flex:none;">
+        <div style="position:absolute;left:10.5%;top:10.5%;width:79%;height:79%;border-radius:50%;background:var(--paper);"></div>
+      </div>
+      <div class="mono" style="font-size:12px;line-height:1.45;letter-spacing:0.04em;max-width:220px;">
+        Square, circular hole, evenodd.<br>
+        Not an O. Not overlapping circles.<br>
+        Hole ≈ 79% of the square.<br>
+        currentColor, usually ink.
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:300px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28px 80px;">
+    <div class="mono ghost" style="font-size:14px;letter-spacing:0.12em;margin-bottom:16px;">03</div>
+    <div class="sans" style="font-size:80px;line-height:1.1;letter-spacing:-0.03em;">Design IS code.</div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:880px;display:grid;grid-template-columns:1fr 1fr;">
+    <div style="border-right:1px solid var(--ink);padding:28px 18px 28px 0;display:flex;flex-direction:column;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;margin-bottom:12px;">04  Color</div>
+      <div style="display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--ink);">
+        <div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:#F6F6F5;"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">paper</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#F6F6F5</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">theme / field</div>
+      </div>
+    </div><div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:#EFEFEC;"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">paper_mid</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#EFEFEC</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">gradient stop</div>
+      </div>
+    </div><div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:#E6E6E2;"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">paper_deep</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#E6E6E2</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">token slot</div>
+      </div>
+    </div><div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:#000000;"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">ink</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#000000</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">type / mark / pills</div>
+      </div>
+    </div><div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:#7D20FF;"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">jeff</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#7D20FF</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">jeff branch / rick</div>
+      </div>
+    </div><div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:#3B76FF;"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">emily</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#3B76FF</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">emily branch / sarah</div>
+      </div>
+    </div><div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:#00C295;"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">success</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#00C295</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">ai success token</div>
+      </div>
+    </div><div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:#D6D6D5;"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">main_pill</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#D6D6D5</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">main git label</div>
+      </div>
+    </div><div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:#E0CAFF;"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">jeff_pill</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#E0CAFF</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">jeff git label</div>
+      </div>
+    </div><div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:#C9D9FF;"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">emily_pill</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#C9D9FF</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">emily git label</div>
+      </div>
+    </div><div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:#B42318;"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">error</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">#B42318</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">waitlist error only</div>
+      </div>
+    </div><div style="border:1px solid var(--ink);margin:-1px 0 0 -1px;">
+      <div style="height:64px;background:linear-gradient(180deg,#F6F6F5,#EFEFEC);"></div>
+      <div style="padding:7px 8px 8px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.06em;">paper_wash</div>
+        <div class="mono" style="font-size:11px;letter-spacing:0;text-transform:none;margin-top:2px;">gradient</div>
+        <div class="mono key" style="font-size:10px;letter-spacing:0.04em;margin-top:3px;">body field, not a brand</div>
+      </div>
+    </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 28px;margin-top:18px;">
+        <p class="sans-reg" style="font-size:20px;line-height:1.35;">The marketing page itself is cream and black. Color arrives as collaborators and as success teal.</p>
+        <p class="sans-reg" style="font-size:20px;line-height:1.35;">Do not use unused slots #6B5CFF, #FF8A4C, #00D4A8. Yellow and lime cursor labels stay black type.</p>
+      </div>
+    </div>
+    <div style="padding:28px 0 28px 18px;display:flex;flex-direction:column;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;margin-bottom:4px;">05  Type</div>
+      <div style="padding:14px 0;border-bottom:1px solid var(--ink);">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;">
+        <span class="mono" style="font-size:12px;">01  Inter  display / body</span>
+        <span class="mono key" style="font-size:11px;letter-spacing:0.02em;">600  ·  opsz 32  ·  −0.03em</span>
+      </div>
+      <div class="sans" style="font-size:46px;line-height:1.05;letter-spacing:-0.03em;">Design IS code.</div>
+      <div class="mono key" style="font-size:11px;margin-top:8px;letter-spacing:0.03em;">Brand face. No serif. Template display-serif job is Inter.</div>
+    </div><div style="padding:14px 0;border-bottom:1px solid var(--ink);">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;">
+        <span class="mono" style="font-size:12px;">02  Inter  quote</span>
+        <span class="mono key" style="font-size:11px;letter-spacing:0.02em;">600  ·  80px  ·  −0.03em</span>
+      </div>
+      <div class="sans" style="font-size:46px;line-height:1.05;letter-spacing:-0.03em;">That ends today!</div>
+      <div class="mono key" style="font-size:11px;margin-top:8px;letter-spacing:0.03em;">No second serif in source. Inter holds the quote job.</div>
+    </div><div style="padding:14px 0;border-bottom:1px solid var(--ink);">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;">
+        <span class="mono" style="font-size:12px;">03  IBM Plex Mono</span>
+        <span class="mono key" style="font-size:11px;letter-spacing:0.02em;">500  ·  uppercase chrome</span>
+      </div>
+      <div class="sans" style="font-size:36px;line-height:1.05;letter-spacing:-0.03em;">MAIN  JEFF  EMILY</div>
+      <div class="mono key" style="font-size:11px;margin-top:8px;letter-spacing:0.03em;">Substitute for Menlo / Monaco. Git pills only in product; chrome on this sheet.</div>
+    </div>
+      <p class="sans-reg" style="font-size:20px;line-height:1.35;margin-top:14px;">Inter does all the talking. Plex Mono (Menlo substitute) is uppercase chrome and git pills. Do not add a serif. Hierarchy is size and weight inside Inter, not a second font.</p>
+    </div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:880px;display:grid;grid-template-columns:5fr 4fr;">
+    <div style="border-right:1px solid var(--ink);padding:28px 18px 28px 0;display:flex;flex-direction:column;gap:16px;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;">06  Grid</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+        <div>
+          <div style="display:grid;grid-template-columns:repeat(8,1fr);height:120px;border:1px solid var(--ink);border-right:0;">
+      <div style="border-right:1px solid var(--ink);background:transparent;height:100%;"></div><div style="border-right:1px solid var(--ink);background:transparent;height:100%;"></div><div style="border-right:1px solid var(--ink);background:transparent;height:100%;"></div><div style="border-right:1px solid var(--ink);background:#EFEFEC;height:100%;"></div><div style="border-right:1px solid var(--ink);background:#EFEFEC;height:100%;"></div><div style="border-right:1px solid var(--ink);background:#EFEFEC;height:100%;"></div><div style="border-right:1px solid var(--ink);background:transparent;height:100%;"></div><div style="border-right:1px solid var(--ink);background:transparent;height:100%;"></div>
+    </div>
+          <div class="mono key" style="font-size:11px;margin-top:8px;">1440 reference  ·  8 units  ·  gutter not zero</div>
+        </div>
+        <div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">wrapper</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">90rem / 1440px</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">content max</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">76rem</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">gutter</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">clamp 16–40px</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">reference</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">1440 × 1080</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">header pad</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">= gutter</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">header / footer</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">fixed / 100dvh</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">radius rest</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">4px xs  ·  pill 999</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">press</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">scale 0.98</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">hairline</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">1px ink</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">mark hole</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">r ≈ 0.39 of square</span>
+    </div></div>
+      </div>
+      <div>
+        <div class="mono ghost" style="font-size:12px;letter-spacing:0.1em;margin-bottom:10px;">Components</div>
+        <div>
+          <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;letter-spacing:0.06em;background:transparent;color:var(--ink);margin:0 8px 8px 0;">Join the waitlist  ·  rest</span>
+          <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;letter-spacing:0.06em;background:#000;color:#F6F6F5;margin:0 8px 8px 0;">Join the waitlist  ·  hover</span>
+          <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;letter-spacing:0.06em;background:transparent;color:var(--ink);margin:0 8px 8px 0;">Active  ·  scale 0.98</span>
+          <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;letter-spacing:0.06em;background:#D6D6D5;color:var(--ink);margin:0 8px 8px 0;">Main</span>
+          <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;letter-spacing:0.06em;background:#E0CAFF;color:#7D20FF;margin:0 8px 8px 0;">Jeff</span>
+          <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;letter-spacing:0.06em;background:#C9D9FF;color:#3B76FF;margin:0 8px 8px 0;">Emily</span>
+          <span class="mono" style="display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:11px;letter-spacing:0.06em;background:#00C295;color:#fff;margin:0 8px 8px 0;">Success</span>
+        </div>
+      </div>
+    </div>
+    <div style="padding:28px 0 28px 18px;display:flex;flex-direction:column;gap:12px;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;">07  Imagery</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+        <div style="position:relative;height:168px;border:1px solid var(--ink);background:var(--panel);
+      background-image:repeating-linear-gradient(135deg, rgba(0,0,0,.09) 0 1px, transparent 1px 12px);">
+      <div class="mono" style="position:absolute;left:10px;bottom:8px;font-size:11px;letter-spacing:0.04em;background:var(--paper);padding:2px 6px 1px;">A  Aperture  ·  ice to lacquer</div>
+    </div>
+        <div style="position:relative;height:168px;border:1px solid var(--ink);background:var(--panel);
+      background-image:repeating-linear-gradient(135deg, rgba(0,0,0,.09) 0 1px, transparent 1px 12px);">
+      <div class="mono" style="position:absolute;left:10px;bottom:8px;font-size:11px;letter-spacing:0.04em;background:var(--paper);padding:2px 6px 1px;">B  Product chrome  ·  canvas still</div>
+    </div>
+      </div>
+      <p class="sans-reg" style="font-size:20px;line-height:1.32;">Family A — punched plate, ice-glass to lacquered black. Family C — 2px git/token strokes, dashed in transit, solid when resolved. Family D — cobalt mesh, footer only.</p>
+      <div class="mono" style="font-size:12px;line-height:1.45;letter-spacing:0.02em;text-transform:none;">
+        <div class="key" style="text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Positive</div>
+        Cream #F6F6F5 field, Inter optical-size 32 semibold −3% tracking, black square with a large circular hole, black pill CTA, named cursors, git graph in #7D20FF and #3B76FF, MAIN/JEFF/EMILY Menlo pills, no serif, no dark mode.
+        <div class="key" style="text-transform:uppercase;letter-spacing:0.08em;margin:10px 0 4px;">Negative</div>
+        Filled circle logo, overlapping lens O, sunset landscape OG, Geist, dark IDE chrome, neon SaaS gradient, glassmorphism cards, anonymous mouse dots, orange accent, squircle app icon.
+      </div>
+    </div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:550px;display:grid;grid-template-columns:1fr 1fr 1fr;">
+    <div style="border-right:1px solid var(--ink);padding:24px 16px 24px 0;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;margin-bottom:8px;">08  Motion</div>
+      <div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">depth</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">0.55, 0, 0.85, 0.30</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">punch</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">0.10, 0.95, 0.20, 1.05</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">durations</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">180 / 320 / 560 / 900 / 1400</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">lenis lerp</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">0.13</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">intro lock</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">~5s  ·  playing</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">press / hover</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">0.98  /  waitlist 1.04</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">marquee</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">50s linear</span>
+    </div><div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:7px 0;border-bottom:1px solid var(--ink);font-size:13px;line-height:1.2;">
+      <span class="mono key">reduced motion</span>
+      <span class="mono val" style="text-transform:none;letter-spacing:0;text-align:right;">dur 0  ·  lenis stop</span>
+    </div>
+      <p class="sans-reg" style="font-size:20px;line-height:1.3;margin-top:12px;">Boot waits on fonts.ready, then ticker.wake before mountAll.</p>
+      <p class="sans-reg" style="font-size:20px;line-height:1.3;margin-top:8px;">Always restore scrollY to 0. This is one pinned theatre.</p>
+    </div>
+    <div style="border-right:1px solid var(--ink);padding:24px 16px;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;margin-bottom:10px;">09  Copy / Voice</div>
+      <div class="mono" style="font-size:12px;letter-spacing:0.08em;margin-bottom:6px;">Keep</div>
+      <p class="sans-reg" style="font-size:18px;line-height:1.35;margin-bottom:10px;">“For thirty years, design and code have been separate worlds.” “No more separation. No more translation. Design IS code.” “You’re a visual builder, not a vibe coder.” “Join the waitlist.”</p>
+      <div class="mono" style="font-size:12px;letter-spacing:0.08em;margin-bottom:6px;">Verbs</div>
+      <p class="sans-reg" style="font-size:18px;line-height:1.35;margin-bottom:10px;">Design, version, publish, install, branch, merge, deploy.</p>
+      <div class="mono" style="font-size:12px;letter-spacing:0.08em;margin-bottom:6px;">Do not</div>
+      <p class="sans-reg" style="font-size:18px;line-height:1.35;">Lowercase-startup whisper. “Reimagine.” Fake metrics. “Figma killer.”</p>
+    </div>
+    <div style="padding:24px 0 24px 16px;display:flex;flex-direction:column;">
+      <div class="mono ghost" style="font-size:13px;letter-spacing:0.12em;margin-bottom:8px;">10  Anti-patterns</div>
+      <div style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;" class="sans-reg">Fill the hole, round the mark into an iOS icon, or use the overlapping-circle O.</div><div style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;" class="sans-reg">Dark “devtool” marketing page.</div><div style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;" class="sans-reg">Promote unused accents #6B5CFF / #FF8A4C as the brand.</div><div style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;" class="sans-reg">Geist / Satoshi / another Inter cousin for headlines.</div><div style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;" class="sans-reg">Anonymous colored dots instead of named cursors.</div><div style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;" class="sans-reg">Rainbow mesh behind every section.</div><div style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;" class="sans-reg">Card grids, testimonials, metric counters, process timelines.</div><div style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;" class="sans-reg">Treat Naymee’s coral file-icon as Opacity’s mark.</div><div style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;" class="sans-reg">Ease-in on small chrome. depth is for the logo whip only.</div><div style="padding:7px 0;border-bottom:1px solid var(--ink);font-size:15px;line-height:1.25;" class="sans-reg">Animate keyboard-driven actions.</div>
+      <div class="sans" style="font-size:22px;line-height:1.15;letter-spacing:-0.03em;margin-top:auto;padding-top:12px;">If not, delete the extra font and punch the hole again.</div>
+    </div>
+  </div>
+  <div class="hair"></div>
+
+  <div class="band" style="height:104px;display:flex;align-items:center;justify-content:space-between;">
+    <div class="mono" style="font-size:14px;">opacity.com</div>
+    <div class="mono" style="font-size:14px;">@OpacityHQ  ·  Zoah Inc.  ·  © 2026</div>
+  </div>
+
+</div>
+</body>
+</html>
